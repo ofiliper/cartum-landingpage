@@ -20,10 +20,6 @@ export default function Header() {
                     <li><a href="#" className="">Sobre</a></li>
                     {/* <li><a href="#" className="">Contato</a></li> */}
                     <li><a href="#" className="">Termos de uso</a></li>
-                    <li className="text-yellow-400 flex items-center gap-2">
-                        <Image src="/images/coin.png" width={20} height={20} alt="flag" />
-                        20 créditos
-                    </li>
                     <li>
                         <button className="bg-white text-white px-4 py-2 rounded flex items-center space-x-2 !bg-rose-600 rounded-full">
                             <BiUser />

@@ -18,9 +18,9 @@ export default function Banner() {
 
             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-[#000] to-transparent opacity-70 rounded-b-[120px]"></div>
 
-            <div className="w-[790px] mt-40 z-[9] pl-40">
-                <h1 className="text-[82px] leading-[82px] font-extrabold text-white mb-10">
-                    Histórias criativas para você e seu filho
+            <div className="w-[890px] mt-40 z-[9] pl-40">
+                <h1 className="text-[48px] leading-[62px] font-extrabold text-white mb-10">
+                    Crie momentos mágicos e inesquecíveis com uma história exclusiva para você e seu filho!
                 </h1>
                 <Button
                     onClick={() => { console.log("Cliquei") }}

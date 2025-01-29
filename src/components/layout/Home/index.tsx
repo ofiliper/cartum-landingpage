@@ -4,6 +4,7 @@ import About from "./Components/About";
 import Banner from "./Components/Banner";
 import Price from "./Components/Price";
 import Footer from "./Components/Footer";
+import Faq from "./Components/Faq";
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Header />
             <Banner />
             <About />
+            <Faq />
             <Price />
             <Footer />
         </div>

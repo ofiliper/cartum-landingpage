@@ -15,7 +15,7 @@ export default function About() {
 
                     <div className="md:w-2/5 mb-6 md:mb-0">
                         <h2 className="text-5xl font-bold mb-4">
-                            Crie histórias únicas e divertidas
+                            Você fornece os detalhes e nós criamos o resto!
                         </h2>
                         <p className="text-[#767a72] text-xl pt-7 pb-10">
                             Inclua-se na história, descreva-se com detalhes especiais. Assim
@@ -56,25 +56,6 @@ export default function About() {
                     }
                 </div>
 
-
-                <div className="flex flex-col md:flex-row items-center px-10 gap-30 mx-auto w-[1280px]">
-
-                    <div className="md:w-1/2">
-                        <img
-                            src="/images/family.png"
-                            alt="Família"
-                            className="rounded"
-                        />
-                    </div>
-
-                    <div className="md:w-2/5 mb-6 md:mb-0">
-                        <h2 className="text-2xl font-bold mb-4 text-center">
-                            Talvez você se pergunte...
-                        </h2>
-                        <Accordeon questions={questionsData} defaultQuestion={0} />
-                    </div>
-
-                </div>
 
             </div>
         </section>
