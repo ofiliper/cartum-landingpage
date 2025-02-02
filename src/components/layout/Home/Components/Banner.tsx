@@ -21,7 +21,7 @@ export default function Banner() {
             <div className="flex flex-col items-center sm:items-start w-full sm:w-[890px] mt-40 z-[9] sm:pl-40">
 
                 <h1 className="text-center sm:text-left text-[28px] sm:text-[48px] leading-[42px] sm:leading-[62px] font-extrabold text-white mb-10">
-                    Crie momentos mágicos e inesquecíveis com uma história exclusiva para você e seu filho!
+                    Crie histórias envolventes para a alfabetização do seu filho com a ajuda da inteligência artificial!
                 </h1>
 
                 <Button

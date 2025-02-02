@@ -18,7 +18,7 @@ export default function Faq() {
 
                 <div className="md:w-2/5 mb-6 md:mb-0">
                     <h2 className="text-2xl font-bold mb-4 text-center">
-                        Talvez você se pergunte...
+                        Talvez você se pergunte... 🤔
                     </h2>
                     <Accordeon questions={questionsData} defaultQuestion={0} />
                 </div>

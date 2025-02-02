@@ -39,7 +39,7 @@ export default function Header() {
                         <BiX />
                     </button>
 
-                    <li><a href="#" className="">Termos de uso</a></li>
+                    <li><a href="/termos" className="">Termos de uso</a></li>
                     <li>
                         <a
                             href={`${process.env.NEXT_PUBLIC_DASH_URL}/auth/login`}
