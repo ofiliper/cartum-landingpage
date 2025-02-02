@@ -17,14 +17,16 @@ export default function Header() {
                     </a>
                 </div>
                 <ul className="flex items-center space-x-6 text-md text-black font-bold">
-                    <li><a href="#" className="">Sobre</a></li>
+                    {/* <li><a href="#" className="">Sobre</a></li> */}
                     {/* <li><a href="#" className="">Contato</a></li> */}
                     <li><a href="#" className="">Termos de uso</a></li>
                     <li>
-                        <button className="bg-white text-white px-4 py-2 rounded flex items-center space-x-2 !bg-rose-600 rounded-full">
+                        <a
+                            href={`${process.env.NEXT_PUBLIC_DASH_URL}/auth/login`}
+                            className="bg-white text-white px-4 py-2 rounded flex items-center space-x-2 !bg-rose-600 rounded-full">
                             <BiUser />
                             <span>Minha conta</span>
-                        </button>
+                        </a>
                     </li>
                 </ul>
             </nav>

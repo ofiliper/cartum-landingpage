@@ -24,7 +24,9 @@ export default function Banner() {
                 </h1>
                 <Button
                     onClick={() => { console.log("Cliquei") }}
-                    label="Criar minha história agora" />
+                    label="Criar minha história agora" 
+                    className={`!bg-gradient-to-r !from-blue-400 !to-blue-500`}
+                    />
             </div>
         </div>
     )

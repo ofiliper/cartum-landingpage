@@ -36,24 +36,32 @@ export default function About() {
                 </div>
 
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center mt-12 w-8/12 mx-auto py-20">
-                    {
-                        aboutData.map((item, index) => (
-                            <div key={index}>
-                                <img
-                                    src={item.image}
-                                    alt="Personalize"
-                                    className="mx-auto mb-4 w-[60px]"
-                                />
-                                <h3 className="text-xl font-semibold text-2xl">
-                                    {item.title}
-                                </h3>
-                                <p className="mt-2 text-gray-600">
-                                    {item.description}
-                                </p>
-                            </div>
-                        ))
-                    }
+                <div className="py-20">
+                    <div className="text-center">
+                        <h4 className="text-4xl font-extrabold">Como funciona?</h4>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center mt-12 w-8/12 mx-auto">
+                        {
+                            aboutData.map((item, index) => (
+                                <div
+                                    key={index}
+                                    className={`px-4 py-10 rounded-xl border-b-4 border-violet-600 transition-all linear-ease shadow-md hover:shadow-xl`}
+                                >
+                                    <img
+                                        src={item.image}
+                                        alt="Personalize"
+                                        className="mx-auto mb-4 w-[180px]"
+                                    />
+                                    <h3 className="text-xl font-extrabold text-2xl">
+                                        {item.title}
+                                    </h3>
+                                    <p className="mt-2 text-gray-600">
+                                        {item.description}
+                                    </p>
+                                </div>
+                            ))
+                        }
+                    </div>
                 </div>
 
 

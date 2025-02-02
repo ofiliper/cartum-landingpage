@@ -4,6 +4,7 @@ import { planStore } from "@/store/plans/plan-store";
 import usePlanData from "@/store/plans/PlanData";
 import fnFormatCurrency from "@/utils/functions/fnFormatCurrency";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 import { useStore } from "zustand";
 
@@ -12,6 +13,7 @@ export default function Price() {
     const planHook = usePlanData();
     const plans = useStore(planStore);
     const { list, isFetching } = plans.data;
+    const router = useRouter()
 
     useEffect(() => {
         planHook.fnGetPlans();
@@ -24,8 +26,7 @@ export default function Price() {
                     <div className="w-4/12 mx-auto">
                         <h2 className="text-4xl font-bold mb-8">Valores</h2>
                         <p className="text-gray-600 mb-12">
-                            Sua história ficará salva em sua biblioteca. Você poderá reler
-                            sempre que desejar!
+                            Sua história ficará salva em sua biblioteca.
                         </p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-8 w-[1200px] mx-auto">
@@ -75,7 +76,7 @@ export default function Price() {
                                             </p>
                                         </div>
 
-                                        <Button label="Cadastrar agora" onClick={() => { }} />
+                                        <Button label="Cadastrar agora" onClick={() => { router.push(`${process.env.NEXT_PUBLIC_DASH_URL}/auth/login`) }} />
                                     </div>
                                 )
                             })
