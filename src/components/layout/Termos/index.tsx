@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../../shared/Header";
+import Footer from "../Home/Components/Footer";
 
 const Termos = () => {
     return (
@@ -88,6 +89,7 @@ const Termos = () => {
                     </section>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };
