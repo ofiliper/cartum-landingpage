@@ -14,7 +14,7 @@ export default function Footer() {
                         className={`w-[165px]`}
                     />
                 </div>
-                <div className="flex w-10/12 justify-between items-center">
+                <div className="flex flex-col sm:flex-row w-10/12 justify-between items-center">
                     <h4 className="font-bold text-[#645404] text-xs">Desenvolvido por:
                         <a
                             href="https://instagram.com/filipesaas"
