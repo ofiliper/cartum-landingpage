@@ -1,12 +1,11 @@
 'use client';
 import Button from "@/components/shared/Button";
 import { aboutData } from "./data/about-data";
-import Accordeon from "@/components/shared/Accordeon";
-import { questionsData } from "./data/questions-data";
+import { useRouter } from "next/navigation";
 
 export default function About() {
 
-
+    const router = useRouter();
 
     return (
         <section className="py-16 bg-white">
@@ -21,7 +20,7 @@ export default function About() {
                             Descreva com detalhes especiais para torná-la ainda mais personalizada. Assim, a imagem gerada ficará mais parecida com a narrativa!
                         </p>
                         <Button
-                            onClick={() => { console.log("Cliquei") }}
+                            onClick={() => { router.push(`${process.env.NEXT_PUBLIC_DASH_URL}/auth/cadastrar`) }}
                             label="Criar minha história agora" />
                     </div>
 

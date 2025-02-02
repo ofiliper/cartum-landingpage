@@ -2,8 +2,12 @@
 
 import Button from "@/components/shared/Button"
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function Banner() {
+
+    const router = useRouter();
+
     return (
 
         <div className="relative flex items-center justify-start h-[520px] sm:h-[720px]">
@@ -25,7 +29,7 @@ export default function Banner() {
                 </h1>
 
                 <Button
-                    onClick={() => { console.log("Cliquei") }}
+                    onClick={() => { router.push(`${process.env.NEXT_PUBLIC_DASH_URL}/auth/cadastrar`) }}
                     label="Criar minha história agora"
                     className={`!bg-gradient-to-r !from-blue-400 !to-blue-500`}
                 />

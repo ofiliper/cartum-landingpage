@@ -49,7 +49,7 @@ export default function Price() {
                                 </p>
                             </div>
 
-                            <Button label="Cadastrar agora" onClick={() => { }} />
+                            <Button label="Cadastrar agora" onClick={() => { router.push(`${process.env.NEXT_PUBLIC_DASH_URL}/auth/login`) }} />
                         </div>
                         {
                             list && list.map((item, i) => {
