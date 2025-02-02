@@ -7,7 +7,7 @@ const Termos = () => {
         <div className="font-sans">
             <Header />
 
-            <div className="w-11/12 w-[940px] mx-auto pt-40 pb-10">
+            <div className="w-11/12 sm:w-[940px] mx-auto pt-40 pb-10">
 
                 <div className="text-center">
                     <h4 className="text-3xl font-extrabold">Termos de uso</h4>

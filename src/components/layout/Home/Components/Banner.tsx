@@ -22,9 +22,9 @@ export default function Banner() {
 
             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-[#000] to-transparent opacity-70 rounded-b-[40px] sm:rounded-b-[120px]"></div>
 
-            <div className="flex flex-col items-center sm:items-start w-full sm:w-[890px] mt-40 z-[9] sm:pl-40">
+            <div className="flex flex-col items-center sm:items-start w-full sm:w-[890px] mt-40 z-[9] px-5 sm:pl-40">
 
-                <h1 className="text-center sm:text-left text-[28px] sm:text-[48px] leading-[42px] sm:leading-[62px] font-extrabold text-white mb-10">
+                <h1 className="text-center sm:text-left text-[28px] sm:text-[48px] leading-[34px] sm:leading-[62px] font-extrabold text-white mb-10">
                     Crie histórias envolventes para a alfabetização do seu filho com a ajuda da inteligência artificial!
                 </h1>
 
