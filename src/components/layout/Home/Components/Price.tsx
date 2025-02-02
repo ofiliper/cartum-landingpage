@@ -29,7 +29,7 @@ export default function Price() {
                             Sua história ficará salva em sua biblioteca.
                         </p>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 w-[1200px] mx-auto">
+                    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 w-full sm:w-[1200px] mx-auto">
                         <div
                             className="bg-gray-100 p-6 rounded shadow bg-white rounded-xl">
                             <h3 className="text-3xl font-bold">Forasteiro</h3>
@@ -89,7 +89,7 @@ export default function Price() {
                 alt="kids"
                 width={1920}
                 height={1080}
-                className={`w-full object-cover h-[720px] rounded-t-[120px]`}
+                className={`w-full object-cover h-[560px] sm:h-[720px] rounded-t-[60px] sm:rounded-t-[120px]`}
             />
         </div>
     )

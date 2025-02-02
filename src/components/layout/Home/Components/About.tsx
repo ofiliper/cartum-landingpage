@@ -11,13 +11,13 @@ export default function About() {
     return (
         <section className="py-16 bg-white">
             <div className="container mx-auto px-4">
-                <div className="flex flex-col md:flex-row items-center px-10 gap-30 mx-auto w-[1280px]">
+                <div className="flex flex-col md:flex-row items-center px-4 sm:px-10 gap-5 sm:gap-30 mx-auto w-full sm:w-[1280px]">
 
-                    <div className="md:w-2/5 mb-6 md:mb-0">
-                        <h2 className="text-5xl font-bold mb-4">
+                    <div className="flex flex-col items-center sm:items-start md:w-2/5 mb-6 md:mb-0">
+                        <h2 className="text-center sm:text-left text-3xl sm:text-5xl font-bold mb-4">
                             Você fornece os detalhes e nós criamos o resto!
                         </h2>
-                        <p className="text-[#767a72] text-xl pt-7 pb-10">
+                        <p className="text-center sm:text-left text-[#767a72] text-xl pt-7 pb-10">
                             Inclua-se na história, descreva-se com detalhes especiais. Assim
                             sua história será ainda mais personalizada!
                         </p>
@@ -40,7 +40,7 @@ export default function About() {
                     <div className="text-center">
                         <h4 className="text-4xl font-extrabold">Como funciona?</h4>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center mt-12 w-8/12 mx-auto">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center mt-12 w-11/12 sm:w-8/12 mx-auto">
                         {
                             aboutData.map((item, index) => (
                                 <div

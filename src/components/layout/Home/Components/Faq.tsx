@@ -6,7 +6,7 @@ import { questionsData } from "./data/questions-data";
 export default function Faq() {
     return (
         <section className="bg-white">
-            <div className="flex flex-col md:flex-row items-center px-10 gap-30 mx-auto w-[1280px]">
+            <div className="flex flex-col md:flex-row items-center px-4 sm:px-10 gap-5 sm:gap-30 mx-auto w-full sm:w-[1280px]">
 
                 <div className="md:w-1/2">
                     <img
