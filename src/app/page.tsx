@@ -2,7 +2,7 @@ import Home from "@/components/layout/Home";
 
 export const metadata = {
     title: "Faça A Sua História • Cartum.com.br",
-    description: "Faça o seu cadastro em poucos cliques, defina o seu link único e tenha um site pronto para ser compartilhado.",
+    description: "Faça o seu cadastro em poucos cliques e crie sua história com ajuda da inteligencia artificial.",
 };
 
 export default Home;
